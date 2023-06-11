@@ -250,6 +250,70 @@ footer span {
 @media all and (min-width: 1200px) {
     /* Desktop styles here */
 
+	.content-wrapper {
+		max-width: 1200px;
+		width: 90%;
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		
+		
+	}
+
+	header {
+
+		display: flex;
+		justify-content: center;
+		
+	
+	}
+	
+	header h1 {
+		width: 70%;
+		padding-left:0;
+		padding-top: 38px;
+		padding-bottom: 20px;
+		margin: 0;
+		text-align: left;
+		display: flex;
+		justify-content: flex-start;
+	
+	}
+	
+	
+	header h1 span {
+		color: #45610E;
+	}
+	
+	
+	header nav {
+		
+		border-top-width: 0;
+		width: 30%;
+		
+	}
+	
+	header nav ul {
+		padding: 20px 0 ;
+		display: flex;
+		justify-content: flex-end;
+		
+	}
+	
+	header nav ul li {
+		font-size: 0.875rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		padding: 10px 0;
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+	}
+	
+	header nav ul li a {
+		text-decoration: none;
+		color: #45610E;
+	}
 
 	
 }
